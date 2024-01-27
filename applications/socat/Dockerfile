@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.19.1
 #USER root
 #Installing socat
 RUN apk update && apk upgrade && apk add bash socat
